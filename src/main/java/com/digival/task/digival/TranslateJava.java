@@ -7,12 +7,8 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.testng.ITestResult;
-import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
-
-import junit.framework.Assert;
 
 public class TranslateJava extends BaseClass{
 	
@@ -61,11 +57,11 @@ public class TranslateJava extends BaseClass{
 				
 				clk(tp.getClear());
 				
-				
+				System.out.println("Done");
 			}
 		
 			
-		
+	
 			
 		
 	}
